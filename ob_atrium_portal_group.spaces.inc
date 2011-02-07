@@ -14,10 +14,46 @@ function ob_atrium_portal_group_spaces_presets() {
   $spaces_presets->space_type = 'og';
   $spaces_presets->value = array(
     'variable' => array(
-      'spaces_og_selective' => '1',
-      'spaces_og_register' => 1,
-      'spaces_og_directory' => 1,
+      'spaces_og_selective' => '2',
+      'spaces_og_register' => 0,
+      'spaces_og_directory' => 0,
       'spaces_og_private' => 0,
+      'spaces_features' => array(
+        'atrium_blog' => '0',
+        'atrium_book' => '1',
+        'atrium_calendar' => '1',
+        'atrium_casetracker' => '0',
+        'atrium_members' => '0',
+        'atrium_shoutbox' => '0',
+        'spaces_dashboard' => '1',
+      ),
+      'spaces_setting_home' => 'dashboard',
+      'site_frontpage' => 'dashboard',
+      'menu_primary_links_source' => 'menu-portal',
+      'menu_default_node_menu' => 'menu-portal',
+      'designkit_color' => array(
+        'background' => '#9933aa',
+      ),
+      'designkit_image' => array(
+        'logo' => 0,
+      ),
+    ),
+    'context' => array(
+      'spaces_dashboard-custom-1:reaction:block' => array(
+        'blocks' => array(),
+      ),
+      'spaces_dashboard-custom-2:reaction:block' => array(
+        'blocks' => array(),
+      ),
+      'spaces_dashboard-custom-3:reaction:block' => array(
+        'blocks' => array(),
+      ),
+      'spaces_dashboard-custom-4:reaction:block' => array(
+        'blocks' => array(),
+      ),
+      'spaces_dashboard-custom-5:reaction:block' => array(
+        'blocks' => array(),
+      ),
     ),
   );
 
