@@ -1,0 +1,3 @@
+<?php
+
+include_once('ob_atrium_portal_group.features.inc');
